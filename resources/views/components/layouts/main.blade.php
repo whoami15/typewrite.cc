@@ -15,12 +15,14 @@
         <nav>
             <ul>
                 <li>
-                    <strong>{{ config('app.name') }}</strong>
+                    <a href="{{ route('app.dashboard') }}" class="contrast">
+                        <strong>{{ config('app.name') }}</strong>
+                    </a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="{{ route('app.lists.index') }}">Lists</a>
+                    <a href="{{ route('app.groups.index') }}">Groups</a>
                 </li>
 
                 <li>
@@ -34,6 +36,8 @@
         </nav>
     </header>
 
-    {{ $slot }}
+    <div class="container">
+        {{ $slot }}
+    </div>
 </body>
 </html>
