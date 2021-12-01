@@ -6,7 +6,7 @@
 
         <p>You haven't made any collections yet. Click the button below to create your first one!</p>
 
-        <a href="{{ route('app.groups.create') }}" role="button">
+        <a href="{{ route('app.collections.create') }}" role="button">
             Create collection
         </a>
     </article>
