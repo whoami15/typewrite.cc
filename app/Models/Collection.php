@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Mtvs\EloquentHashids\HasHashid;
 use Mtvs\EloquentHashids\HashidRouting;
 
-class Group extends Model
+class Collection extends Model
 {
     use HasFactory;
     use HasHashid;

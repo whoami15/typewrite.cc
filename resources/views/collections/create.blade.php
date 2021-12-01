@@ -1,5 +1,5 @@
-<x-layouts.main title="Create Group - Typewrite.cc">
-    <h3>Create Group</h3>
+<x-layouts.main title="Create Collection - Typewrite.cc">
+    <h3>Create Collection</h3>
 
     <form action="{{ route('app.groups.store') }}" method="POST">
         @csrf

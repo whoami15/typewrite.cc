@@ -22,7 +22,7 @@
             </ul>
             <ul>
                 <li>
-                    <a href="{{ route('app.groups.index') }}">Groups</a>
+                    <a href="{{ route('app.collections.index') }}">Collections</a>
                 </li>
 
                 <li>
